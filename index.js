@@ -7,7 +7,7 @@ let products = [
   { id: 1, name: 'Laptop', price: 19999, description: 'High-performance laptop' },
 ];
 
-let nextId = 3;
+let nextId = 2;
 
 // POST /products
 app.post('/products', (req, res) => {
